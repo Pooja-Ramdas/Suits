@@ -31,6 +31,18 @@ class Deck {
 		Collections.shuffle(deck);
 	}
 	
+//Print two randcards from the Deck 
+	public void randomCards(){
+		shuffleDeck();
+		for(int i = 0; i < 3; i++)
+		{
+			System.out.println(deck.get(i));
+		}
+	}
 	
+//Create 3 players and distribute 5 cards at random to a player and display cards of all players
+	public void cardPlayers(){
+		
+	}
 	
 }
