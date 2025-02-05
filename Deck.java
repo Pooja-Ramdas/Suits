@@ -42,7 +42,15 @@ class Deck {
 	
 //Create 3 players and distribute 5 cards at random to a player and display cards of all players
 	public void cardPlayers(){
-		
+		for(int i = 0; i < 3; i++)
+		{
+			System.out.println("Player "+(i+1)+"'s hand:");
+			for (int j = 0; j < 5; j++)
+			{
+				System.out.println(deck.remove(0));
+			}
+			System.out.println();
+		}
 	}
 	
 }

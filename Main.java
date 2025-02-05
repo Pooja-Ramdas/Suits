@@ -10,6 +10,7 @@ public class Main{
 		System.out.println("---------------Shuffled Deck---------------");
 		deck.shuffleDeck();
 		deck.displayDeck();
-		
+		deck.randomCards();
+		deck.cardPlayers();
 	}
 }
