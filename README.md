@@ -1,6 +1,6 @@
 # Suits - Card Deck Java Program
 ## Description
-This is a Java program that simulates a deck of playing cards. It allows users to perform various operations such as printing the deck, shuffling, finding specific cards, dealing cards, and comparing them. Folloeing are its features:
+This is a Java program that simulates a deck of playing cards. It allows users to perform various operations, such as printing the deck, shuffling, finding specific cards, dealing cards, and comparing them. Following are its features:
 -> Create a deck of 52 playing cards
 -> Print all cards in the deck
 -> Display a specific card
